@@ -56,6 +56,10 @@ If you are having an issue with the extension, please report it [here](https://g
 
 If you are having an issue with the bot, please report it [here](https://github.com/EpitechMouliBot/discord-bot/issues).
 
+# Terms of service
+
+By using this application, you agree with the [terms of service and privacy policy](https://epitechmoulibot.substack.com/p/cgu-epitechmoulibot).
+
 ***
 
 # Authors
