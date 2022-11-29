@@ -12,11 +12,11 @@ A discord bot to send you notifications about your Epitech moulis on [my.epitech
 # Setup
 
 ## Chrome extension
-First, you need to install the chrome extension (available for all Chromium browsers: Google Chrome, Brave, Opera, Edge...)
+First, you need to install the chrome extension (available to all Chromium browsers: Google Chrome, Brave, Opera, Edge...)
 <!-- TODO faire un package github pour télécharger l'extension -->
 
 - Unzip the downloaded extension.
-- Go to [chrome://extensions/](chrome://extensions/) in your browser.
+- Go to `chrome://extensions/` in your browser.
 - Enable `Developer mode` in the top right corner.
 
 ![developer_mode.jpg](./assets/developer_mode.jpg "Developer mode")
@@ -36,9 +36,9 @@ Now that you have setup your account, you can invite the bot into your server.
 
 Go to this [link]() and follow the instructions. <!-- TODO mettre le lien d'invitation du bot -->
 
-Now, it whould be into your server.
+Now, it should be into your server.
 
-To setup the bot and link it to your account created earlier, just type `/login` and fill your email and your password entered in the Chrome extension.
+To setup the bot and link it to your account created earlier, just type `/login` in a discord channel and fill your email and your password entered in the Chrome extension.
 
 Just after that, type `/channel` with the channel you want to recieve notifications.
 
@@ -48,13 +48,13 @@ The bot is ready!
 
 The bot is made to send you a notification right when a new mouli is available.
 
-You can also type `/mouli` to get the latest mouli, and `/mouli 3` for example, to get the 3rd latest mouli.
+You can also type `/mouli` in a discord channel to get the latest mouli, or `/mouli 3` (for example) to get the 3rd latest mouli.
 
 # Issues
 
-If you are having issues with the extension, please report it [here](https://github.com/EpitechMouliBot/browser-extension/issues).
+If you are having an issue with the extension, please report it [here](https://github.com/EpitechMouliBot/browser-extension/issues).
 
-If you are having issues with the bot, please report it [here](https://github.com/EpitechMouliBot/discord-bot/issues).
+If you are having an issue with the bot, please report it [here](https://github.com/EpitechMouliBot/discord-bot/issues).
 
 ***
 
