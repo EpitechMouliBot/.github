@@ -34,7 +34,7 @@ First, you need to install the chrome extension (available to all Chromium brows
 Now that you have setup your account, you can invite the bot into your server.
 > ⚠️ **You need to be admin to invite the bot to your server.**
 
-Go to this [link]() and follow the instructions. <!-- TODO mettre le lien d'invitation du bot -->
+Go to this [link](https://discord.com/api/oauth2/authorize?client_id=1045341766808772638&permissions=137439365184&scope=bot%20applications.commands) and follow the instructions.
 
 Now, it should be into your server.
 
