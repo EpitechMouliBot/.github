@@ -60,3 +60,4 @@ By using this application, you agree with the [terms of service and privacy poli
 
 * Github: [@RedBoardDev](https://github.com/RedBoardDev)
 * LinkedIn: [@thomas--ott](https://linkedin.com/in/thomas--ott)
+
