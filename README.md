@@ -12,11 +12,9 @@ A discord bot to send you notifications about your Epitech moulis on [my.epitech
 # Setup
 
 ## Chrome extension
-First, you need to install the chrome extension (available to all Chromium browsers: Google Chrome, Brave, Opera, Edge...):
+First, you need to **[install the web extension on Chrome Web Store](https://chrome.google.com/webstore/detail/epitech-mouli-bot/njgkdlhcpojpejgbcfadnmnlphfpcdpi)** (available to all Chromium browsers: Google Chrome, Brave, Opera, Edge...)
 
- **[Install the web extension](https://chrome.google.com/webstore/detail/epitech-mouli-bot/njgkdlhcpojpejgbcfadnmnlphfpcdpi)**
-
-> ⚠️ **In order for the bot to work, the extension needs to pick your [my.epitech.eu](https://my.epitech.eu) account infos. When you will create your account, the extension will automatically grab your cookies and send it to our servers.**
+> ⚠️ **In order for the bot to work, the extension needs to pick your [my.epitech.eu](https://my.epitech.eu) account infos (cookies). When you will create your account, the extension will automatically grab your cookies and send it to our servers.**
 
 ## Discord bot
 
