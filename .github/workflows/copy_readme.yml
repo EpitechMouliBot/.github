@@ -7,16 +7,13 @@ jobs:
   copy_readme:
     runs-on: ubuntu-latest
     steps:
-      - id: s1
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - id: s2
-        name: Copy README
+      - name: Copy README
         run: |
           cp ./README.md ./profile/README.md
-      - id: s3
-        name: Commit files
+      - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -24,8 +21,7 @@ jobs:
             git add -A
             git commit -m "copied readme to /profile"
           fi
-      - id: s4
-        name: Push changes
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
