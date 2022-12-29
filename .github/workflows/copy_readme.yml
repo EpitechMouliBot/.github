@@ -7,19 +7,29 @@ jobs:
   copy_readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - id: s1
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Copy README
+      - id: s2
+        name: Copy README
         run: |
           cp ./README.md ./profile/README.md
-      - name: Commit files
+      - id: s3
+        name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "copied readme to /profile"
-      - name: Push changes
+          if [[ $(git diff --name-only --cached | wc -l) -ne 0 ]]; then
+            git add -A
+            git commit -m "copied readme to /profile"
+            exit 0
+          else
+            exit 1
+          fi
+      - id: s4
+        name: Push changes
+        if: steps.s3.conclusion == 'success'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
