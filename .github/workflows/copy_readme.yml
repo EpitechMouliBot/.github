@@ -3,8 +3,7 @@ name: copy_readme
 on:
   push:
     branches-ignore: [master, main]
-  pull_request:
-    branches: [master, main]
+
 jobs:
   copy_readme:
     runs-on: ubuntu-latest
