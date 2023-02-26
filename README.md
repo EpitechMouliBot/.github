@@ -1,8 +1,16 @@
 <h1 align="center">Epitech Mouli Bot</h1>
 
-A discord bot to send you notifications about your Epitech moulis on [my.epitech.eu](https://my.epitech.eu)
+<a href="https://uptime.redboard.fr/status/epitechmoulibot">
+    <img src="https://uptime.redboard.fr/api/badge/3/status?label=Discord bot" />
+    <img src="https://uptime.redboard.fr/api/badge/2/status?label=MyEpitech relay" />
+    <img src="https://uptime.redboard.fr/api/badge/1/status?label=API" />
+</a>
 
 > Started February, 11 2022
+
+A discord bot to send you notifications about your Epitech moulis on [my.epitech.eu](https://my.epitech.eu)
+
+Everyone can use it, just follow the instructions below:
 
 # Requirements
 
@@ -13,6 +21,8 @@ A discord bot to send you notifications about your Epitech moulis on [my.epitech
 
 ## Chrome extension
 First, you need to **[install the web extension on Chrome Web Store](https://chrome.google.com/webstore/detail/epitech-mouli-bot/njgkdlhcpojpejgbcfadnmnlphfpcdpi)** (available to all Chromium browsers: Google Chrome, Brave, Opera, Edge...)
+
+Then, go on [my.epitech.eu](https://my.epitech.eu), open the extension popup and create an account following the instructions.
 
 > ⚠️ **In order for the bot to work, the extension needs to pick your [my.epitech.eu](https://my.epitech.eu) account infos (cookies). When you will create your account, the extension will automatically grab your cookies and send it to our servers.**
 
@@ -30,6 +40,8 @@ To setup the bot and link it to your account created earlier, just type `/login`
 Just after that, type `/channel` with the channel you want to recieve notifications.
 
 The bot is ready!
+
+You will recieve a notification of the latest mouli, in order to see if you set it up properly.
 
 # Features
 
